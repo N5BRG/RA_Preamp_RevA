@@ -1,0 +1,208 @@
+(footprint "PL-308"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "28-lead surface-mounted (SMD) DIP package, row spacing 15.24mm (600 mils)")
+	(tags "SMD DIP DIL PDIP SMDIP 2.54mm 15.24mm 600mil")
+	(property "Reference" "REF**"
+		(at -3.061903 -3.155006 180)
+		(layer "F.SilkS")
+		(uuid "89fd82e0-6ae8-4411-bb97-8f4165d23491")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SYBP-1420+"
+		(at 37.665 39.655 180)
+		(layer "F.Fab")
+		(uuid "fda8561b-fab6-468b-bbb9-f34ab115911e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://minicircuits.com/WebStore/dashboard.html?model=SYBP-1420%2B"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e78b285b-8ca8-49ba-b0e1-1e8e4e006158")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Band Pass Filter 1250 to 1560 MHz"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3024f4d5-3587-4812-9254-5a552b106620")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "Do Not Populate"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b679889d-0ffc-416e-8e3f-ad05eab446b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Filter*PZB300*")
+	(sheetname "/")
+	(sheetfile "H1_RF2_C.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -4.0132 -2.0066)
+		(end 4.0132 6.604)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "de56268a-09ed-4cdd-86be-0c87eb8ba73e")
+	)
+	(fp_circle
+		(center -4.75 -1)
+		(end -4.980092 -1.376766)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "64bb4ba5-a8d7-4af0-8a94-ec5fc5ebf4f9")
+	)
+	(fp_line
+		(start -3.175 -1.651)
+		(end -3.175 6.223)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d2d06bf7-4e96-4137-96fd-f5ddb4c1e831")
+	)
+	(fp_line
+		(start -3.175 -1.651)
+		(end 3.175 -1.651)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4d17948c-c155-441d-868e-3dd5df4d2ce3")
+	)
+	(fp_line
+		(start -3.175 6.223)
+		(end 3.175 6.223)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "427a5305-0cb1-4051-887c-8664fb387626")
+	)
+	(fp_line
+		(start 3.175 -1.651)
+		(end 3.175 6.223)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cb94dac0-fa30-4bbe-bd37-2339eb25213c")
+	)
+	(fp_circle
+		(center -4.75 -1)
+		(end -4.553429 -0.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "685406c4-6566-46ca-a190-4d0ad227b439")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(uuid "71b2db69-efed-42e5-9b1e-d5ef511907c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.9845 0)
+		(size 1.651 1.524)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.140449)
+		(uuid "a4951791-ecc8-454d-a30e-9dac87e6090b")
+	)
+	(pad "2" smd roundrect
+		(at -2.9845 2.286)
+		(size 1.651 1.524)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.140449)
+		(uuid "aeaebadf-0d68-4bc6-b94f-c067d82f0e5f")
+	)
+	(pad "3" smd roundrect
+		(at -2.9845 4.572)
+		(size 1.651 1.524)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.140449)
+		(uuid "5a2d63b9-0904-490f-a4ea-99bead51de9e")
+	)
+	(pad "4" smd roundrect
+		(at 2.9845 4.572)
+		(size 1.651 1.524)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.140449)
+		(uuid "dfa5faa1-04b7-461a-9003-f66fe99a1029")
+	)
+	(pad "5" smd roundrect
+		(at 2.9845 2.286)
+		(size 1.651 1.524)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.140449)
+		(uuid "d5ba2b2f-4bd5-43b9-838f-a34fa675ceb5")
+	)
+	(pad "6" smd roundrect
+		(at 2.9845 0)
+		(size 1.651 1.524)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.140449)
+		(uuid "fa154075-4651-4b59-9a36-cb4565027566")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/SMDIP-28_W15.24mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

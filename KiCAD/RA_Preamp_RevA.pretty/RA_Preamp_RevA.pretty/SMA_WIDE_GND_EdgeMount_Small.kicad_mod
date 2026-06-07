@@ -1,0 +1,187 @@
+(footprint "SMA_WIDE_GND_EdgeMount_Small"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "https://www.amphenolrf.com/library/download/link/link_id/595984/parent/132289/")
+	(tags "SMA")
+	(property "Reference" "REF**"
+		(at -3.869451 4.3857 90)
+		(layer "F.SilkS")
+		(uuid "99b6f47a-76a7-4d3f-9522-a937d14d16ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMA"
+		(at 5 6 180)
+		(layer "F.Fab")
+		(uuid "6942d181-ea43-4c58-a0c4-196447d6ad89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e97cb395-8b16-43ae-af4f-2aa07156cc92")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74474fa6-a9cc-4f37-85c3-05d7c72e554f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "TBD SMA Connector Board Edge"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d0c8a0e-cd4d-42d6-a84e-e37149c0b40c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
+	(sheetname "/")
+	(sheetfile "H1_RF2_C.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.91 -5.08)
+		(end -1.91 -3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78495cf4-5fc9-4e56-ba08-22803f864148")
+	)
+	(fp_line
+		(start -1.91 -3.81)
+		(end 2.54 -3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22caad2c-f1ea-4ee8-9bf0-107369d53c45")
+	)
+	(fp_line
+		(start -1.91 3.81)
+		(end -1.91 5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f98da407-278b-431c-8593-1233fbd00f59")
+	)
+	(fp_line
+		(start 2.54 3.81)
+		(end -1.91 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b8d5f49-360a-463b-91f1-9d3903de2d34")
+	)
+	(fp_line
+		(start 4.445 -3.81)
+		(end 4.445 -5.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc56aa0d-8e99-4392-b5e2-4b971c1a6274")
+	)
+	(fp_line
+		(start 4.445 5.08)
+		(end 4.445 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cec4699-a72c-4a11-b118-008740c9d846")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.79 0 90)
+		(layer "F.Fab")
+		(uuid "078ef043-4f5b-4166-b817-d79d0d63b143")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0 90)
+		(size 1.5 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4dba6f12-5f13-4505-9287-b5edd1742835")
+	)
+	(pad "2" smd rect
+		(at 0 -3.488 90)
+		(size 3.024 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a9a022b2-9b93-4eee-971b-2f4fb770b7fa")
+	)
+	(pad "2" smd rect
+		(at 0 -3.488 90)
+		(size 3.024 5.08)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "3463411b-3fcd-4f91-aaef-ee402b31da9c")
+	)
+	(pad "2" smd rect
+		(at 0 3.488 90)
+		(size 3.024 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d4d6d6ba-a68c-446e-806c-f816723e6774")
+	)
+	(pad "2" smd rect
+		(at 0 3.488 90)
+		(size 3.024 5.08)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "71ca9191-bf7c-4db4-b7f6-63fe339befb4")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_132289_EdgeMount.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
